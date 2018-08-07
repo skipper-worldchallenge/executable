@@ -2,6 +2,7 @@
 		Skipper 
 ---------------------------------------------------
 + please ask me(skipper.worldchallege@gmail.com) about Rpm.zip password.
+    [attention please!]  I will give you special password,    !skipper123#     Please try this! 
 + Install (Linux centos7)
   rpm -ihv skipper-swg-0.99-R01.x86_64.rpm
       install to /usr/local/skipper/...
