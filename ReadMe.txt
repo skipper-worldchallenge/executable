@@ -1,8 +1,10 @@
 						Takayuki.Uchida Japan
 		Skipper 
 ---------------------------------------------------
-+ please ask me(skipper.worldchallege@gmail.com) about Rpm.zip password.
++ please ask me(skipper.worldchallege@gmail.com) about zip password.
     [attention please!]  I will give you special password,    !skipper123#     Please try this! 
+
+<For Linux>
 + Install (Linux centos7)
   rpm -ihv skipper-swg-0.99-R01.x86_64.rpm
       install to /usr/local/skipper/...
@@ -12,9 +14,24 @@
        proxy port : 0.0.0.0/8080
        do [ssl intercept] all web-request. 
 + You should get license-key from mail: skipper.worldchallege@gmail.com.
-    you check GUI: Maintenance/Version and get [bliid /dev/sda1]
+    you check GUI: Maintenance/Version and get [bliid /dev/sda1] and send get-value to mail.
+    then I reply productId. you set this value.
     if you dont do this, proxy stop 30min after starting.
-
+    
+<For Windows>    
++ Install WindowsServer2012R2 or more
+      installer click only
+      - install to service.  if you control skipper, you operate with [service].
+      - install directory
+           C:¥Program Files¥skipper1
+     - default
+       proxy port : 0.0.0.0/8080
+       do [ssl intercept] all web-request.  
++ You should get license-key from mail: skipper.worldchallege@gmail.com.
+   you check GUI: Maintenance/Version and get [ControlPanel - System - ProductID] and send get-value to mail.
+   then I reply productId. you set this value.
+   if you dont do this, proxy stop 30min after starting.
+   
 --
 Skipper is Valued-Secure Web Gateway and has specific any function below.
 
