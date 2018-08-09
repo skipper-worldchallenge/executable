@@ -4,22 +4,26 @@
 + please ask me(skipper.worldchallege@gmail.com) about zip password.
     [attention please!]  I will give you special password,    !skipper123#     Please try this! 
 
-<For Linux>
-+ Install (Linux centos7)
+<For Linux> 
+1. Install (Linux centos7)
   rpm -ihv skipper-swg-0.99-R01.x86_64.rpm
       install to /usr/local/skipper/...
   systemctl start skipper | service skipper start.
     - log: /usr/local/skipper/log/
     - default
        proxy port : 0.0.0.0/8080
-       do [ssl intercept] all web-request. 
-+ You should get license-key from mail: skipper.worldchallege@gmail.com.
+       do [ssl intercept] all web-request.
+  or
+1. Install (Linux Ubuntu server)
+   please, wait. now I don't have makefile to make deb. so I'm preparing it. I'm going to commit until a few week later.
+   sorry!
+2. You should get license-key from mail: skipper.worldchallege@gmail.com.
     you check GUI: Maintenance/Version and get [bliid /dev/sda1] and send get-value to mail.
     then I reply productId. you set this value.
     if you dont do this, proxy stop 30min after starting.
     
 <For Windows>    
-+ Install WindowsServer2012R2 or more
+1. Install WindowsServer2012R2 or more
       installer click only
       - install to service.  if you control skipper, you operate with [service].
       - install directory
@@ -27,7 +31,7 @@
      - default
        proxy port : 0.0.0.0/8080
        do [ssl intercept] all web-request.  
-+ You should get license-key from mail: skipper.worldchallege@gmail.com.
+2. You should get license-key from mail: skipper.worldchallege@gmail.com.
    you check GUI: Maintenance/Version and get [ControlPanel - System - ProductID] and send get-value to mail.
    then I reply productId. you set this value.
    if you dont do this, proxy stop 30min after starting.
