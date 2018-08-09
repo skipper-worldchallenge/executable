@@ -20,7 +20,7 @@
 2. You should get license-key from mail: skipper.worldchallege@gmail.com.
     you check GUI: Maintenance/Version and get [bliid /dev/sda1] and send get-value to mail.
     then I reply productId. you set this value.
-    if you dont do this, proxy stop 30min after starting.
+    if you don't do this, proxy stop 30min after starting. but you can restart then you can use for 30min again.
     
 <For Windows>    
 1. Install WindowsServer2012R2 or more
@@ -34,7 +34,7 @@
 2. You should get license-key from mail: skipper.worldchallege@gmail.com.
    you check GUI: Maintenance/Version and get [ControlPanel - System - ProductID] and send get-value to mail.
    then I reply productId. you set this value.
-   if you dont do this, proxy stop 30min after starting.
+   if you dont do this, proxy stop 30min after starting. but you can restart then you can use for 30min again.
    
 --
 Skipper is Valued-Secure Web Gateway and has specific any function below.
