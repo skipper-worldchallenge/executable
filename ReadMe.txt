@@ -20,7 +20,7 @@
    service skipper start
 2. You should get license-key from mail: skipper.worldchallege@gmail.com.
     you check GUI: Maintenance/Version and get [bliid /dev/sda1] and send get-value to mail.
-      GUI: http://{install machine address}:9091   user[admin] passwd[admin]
+      GUI: http://{install machine address}:9091   user[root] passwd[root]
     then I reply productId. you set this value.
     if you don't do this, proxy stop 30min after starting. but you can restart then you can use for 30min again.
     
@@ -35,7 +35,7 @@
        do [ssl intercept] all web-request.  
 2. You should get license-key from mail: skipper.worldchallege@gmail.com.
    you check GUI: Maintenance/Version and get [ControlPanel - System - ProductID] and send get-value to mail.
-       GUI: http://{install machine address}:9091    user[admin] passwd[admin]
+       GUI: http://{install machine address}:9091    user[root] passwd[root]
    then I reply productId. you set this value.
    if you dont do this, proxy stop 30min after starting. but you can restart then you can use for 30min again.
    
