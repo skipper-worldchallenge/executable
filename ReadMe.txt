@@ -1,6 +1,6 @@
 						Takayuki.Uchida Japan
 
-Now I'm developping function of ReverseProxy in skipper(SWG), and I detected important Bug at HTTP2 communication.
+Now I'm developping function of ReverseProxy in skipper(SWG), and I detected serious Bug at HTTP2 communication.
 Rerverse Proxy function is almost there. Probably I will release it until this year.
 Thank you!
 
