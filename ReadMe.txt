@@ -2,6 +2,7 @@
 
 Now I'm developping function of ReverseProxy in skipper(SWG), and I found serious Bugs at HTTP2 communication and Part of rules of snort are not working with pcre using ¥x00 format. I found bugs other else....
 Rerverse Proxy function and Bug fix are almost there. Probably I will release it until this year.
+!! Now I am testing system, but I release R02-beta now!
 
 At deploying 0.99-R02, I delete R01 because R01 has a lot of Bugs and I think I should not keep deploying it.
 Thank you!
@@ -13,7 +14,7 @@ Thank you!
 
 <For Linux> 
 1. Install (Linux centos7)
-  rpm -ihv skipper-swg-0.99-R01.x86_64.rpm   (uninstall: rpm -e ...,  list: rpm -qa | grep skipper)
+  rpm -ihv skipper-swg-0.99-R02.x86_64.rpm   (uninstall: rpm -e ...,  list: rpm -qa | grep skipper)
       install to /usr/local/skipper/...
   systemctl start skipper | service skipper start
     - log: /usr/local/skipper/log/
@@ -22,7 +23,7 @@ Thank you!
        do [ssl intercept] all web-request.
   or
 1. Install (Linux Ubuntu server)
-   dpkg -i skipper-swg_0.99.1_amd64.deb  (unilstall: dpkg --purge ...,  list: dpkg --list | grep skipper)
+   dpkg -i skipper-swg_0.99.2_amd64.deb  (unilstall: dpkg --purge ...,  list: dpkg --list | grep skipper)
       install to /usr/local/skipper/...
    service skipper start
 2. You should get license-key from mail: skipper.worldchallege@gmail.com.
