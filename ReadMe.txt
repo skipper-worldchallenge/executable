@@ -2,7 +2,7 @@
 
 Now I'm developping function of ReverseProxy in skipper(SWG), and I found serious Bugs at HTTP2 communication and Part of rules of snort are not working with pcre using ¥x00 format. I found bugs other else....
 Rerverse Proxy function and Bug fix are almost there. Probably I will release it until this year.
-!! Now I am testing system, but I release R02-beta now!
+!! Now I am testing system, but I release R02-beta at 13th Dec.
 
 At deploying 0.99-R02, I delete R01 because R01 has a lot of Bugs and I think I should not keep deploying it.
 Thank you!
@@ -61,6 +61,7 @@ Skipper is Valued-Secure Web Gateway and has specific any function below.
 5) Detailed Logging for SIEM.
 6) Rich Setting GUI.
 7) Multi-environment as Windows, Linux.
+8) [New R02] Preverse Proxy function!
 
 Now Skipper has any issue below.
 - Skipper doesnt have URL-FilteringDB including Black/WhiteList and distribute such DB.
