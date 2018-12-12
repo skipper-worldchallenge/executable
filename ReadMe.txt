@@ -11,7 +11,7 @@ Thank you!
 
 <For Linux> 
 1. Install (Linux centos7)
-  rpm -ihv skipper-swg-0.99-R01.x86_64.rpm
+  rpm -ihv skipper-swg-0.99-R01.x86_64.rpm   (uninstall: rpm -e ...,  list: rpm -qa | grep skipper)
       install to /usr/local/skipper/...
   systemctl start skipper | service skipper start
     - log: /usr/local/skipper/log/
@@ -20,7 +20,7 @@ Thank you!
        do [ssl intercept] all web-request.
   or
 1. Install (Linux Ubuntu server)
-   dpkg -i skipper-swg_0.99.1_amd64.deb
+   dpkg -i skipper-swg_0.99.1_amd64.deb  (unilstall: dpkg --purge ...,  list: dpkg --list | grep skipper)
       install to /usr/local/skipper/...
    service skipper start
 2. You should get license-key from mail: skipper.worldchallege@gmail.com.
