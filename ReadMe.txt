@@ -1,8 +1,9 @@
 						Takayuki.Uchida Japan
 
 Now I'm developping function of ReverseProxy in skipper(SWG), and I found serious Bugs at HTTP2 communication and Part of rules of snort are not working with pcre using ¥x00 format. I found bugs other else....
-Rerverse Proxy function and Bug fix are almost there. Probably I will release it until this year.
+
 !! Now I am testing system, but I release R02-beta at 13th Dec.
+*) there's not block-rule-name in accesslog when blocking. I need to improve this. R02 13th Dec version isnot improved. sorry.
 
 At deploying 0.99-R02, I delete R01 because R01 has a lot of Bugs and I think I should not keep deploying it.
 Thank you!
@@ -56,7 +57,9 @@ Skipper is Valued-Secure Web Gateway and has specific any function below.
   - Now Skipper dont have URL-Filtering DB, But Skipper can filter WebRequest by ACL that Client set,
      Filter Target:
       URL/Host/HttpHeader/Query/SrcIp/Port/DstIp/Port/DstCountry/Protocol/…
-  - Skipper can filter WebRequest by Snort Rules(outside direction only) and Reputation.
+  - Skipper can filter WebRequest by Snort Rules and Reputation.
+     as forward-proxy: upstream-direction only(home_net->external_net),  as reverse-proxy: upstream-direction only(external_net->home_net)
+  * When blocking, this system doesnot display blocking-page, only disconnecting.
 4) Multiple Authentiations(LDAP/NTLM/Private) 
 5) Detailed Logging for SIEM.
 6) Rich Setting GUI.
