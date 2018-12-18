@@ -3,12 +3,10 @@
 Now I'm developping function of ReverseProxy in skipper(SWG), and I found serious Bugs at HTTP2 communication and Part of rules of snort are not working with pcre using ¥x00 format. I found bugs other else....
 
 !! Now I am testing system, but I release R02-beta at 13th Dec.
-*1) there's not block-rule-info in accesslog when blocking.
-*2) that's no enough acls for reverse-proxy that are SourceCountry and OwnIpPort.
+*1) [completed, 18th Dec] there's not block-rule-info in accesslog when blocking.
+*2) [completee ,18th Dec] that's no enough acls for reverse-proxy that are SourceCountry and OwnIpPort.
+*3) [fixed some bugs, 18th Dec] other bugs 
    I need to improve these. R02 13th Dec version isnot improved. sorry.
-
-At deploying 0.99-R02, I delete R01 because R01 has a lot of Bugs and I think I should not keep deploying it.
-Thank you!
 
 		Skipper 
 ---------------------------------------------------
@@ -67,6 +65,7 @@ Skipper is Valued-Secure Web Gateway and has specific any function below.
 6) Rich Setting GUI.
 7) Multi-environment as Windows, Linux.
 8) [New R02] Preverse Proxy function!
+9) [New R02] As new filter condition, OwnIPPort and SourceCountry
 
 Now Skipper has any issue below.
 - Skipper doesnt have URL-FilteringDB including Black/WhiteList and distribute such DB.
