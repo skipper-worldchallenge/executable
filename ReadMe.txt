@@ -4,9 +4,8 @@ Now I'm developping function of ReverseProxy in skipper(SWG), and I found seriou
 
 !! Now I am testing system, but I release R02-beta at 13th Dec.
 *1) [completed, 18th Dec] there's not block-rule-info in accesslog when blocking.
-*2) [completee ,18th Dec] that's no enough acls for reverse-proxy that are SourceCountry and OwnIpPort.
+*2) [completed ,18th Dec] that's not enough acls for reverse-proxy that are SourceCountry and OwnIpPort.
 *3) [fixed some bugs, 18th Dec] other bugs 
-   I need to improve these. R02 13th Dec version isnot improved. sorry.
 
 		Skipper 
 ---------------------------------------------------
@@ -69,6 +68,7 @@ Skipper is Valued-Secure Web Gateway and has specific any function below.
 
 Now Skipper has any issue below.
 - Skipper doesnt have URL-FilteringDB including Black/WhiteList and distribute such DB.
+  ***** please provide these or make these together with me!   ask me! *******
 
 Possibility
 - To enbbed User Library is possible. so that we can develop the Gateway Solution.
