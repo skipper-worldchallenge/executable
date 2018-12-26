@@ -3,9 +3,11 @@
 Now I'm developping function of ReverseProxy in skipper(SWG), and I found serious Bugs at HTTP2 communication and Part of rules of snort are not working with pcre using ¥x00 format. I found bugs other else....
 
 !! Now I am testing system, but I release R02-beta at 13th Dec.
-*1) [completed, 18th Dec] there's not block-rule-info in accesslog when blocking.
+*1) [partial fixed, 26th Dec] there's not block-rule-info in accesslog when blocking.
+       -> This system still has this problem at http2-blocking, sorry.
 *2) [completed ,18th Dec] that's not enough acls for reverse-proxy that are SourceCountry and OwnIpPort.
-*3) [fixed some bugs, 18th Dec] other bugs 
+*3) [fixed some bugs, 26th Dec] other bugs
+       -> we had a lot of bugs, for example, Down when url-filtering at http2, [,] URL-char decoded but now not decoded.
 
 		Skipper 
 ---------------------------------------------------
