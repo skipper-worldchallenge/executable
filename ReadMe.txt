@@ -14,6 +14,7 @@ Now I'm developping function of ReverseProxy in skipper(SWG), and I found seriou
     [attention please!]  I will give you special password,    !skipper123#     Please try this! 
 
 <For Linux> 
+*) we need [openldap] pkg when installing this system!
 1. Install (Linux centos7)
   rpm -ihv skipper-swg-0.99-R02.x86_64.rpm   (uninstall: rpm -e ...,  list: rpm -qa | grep skipper)
       install to /usr/local/skipper/...
