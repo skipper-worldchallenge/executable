@@ -58,15 +58,16 @@ Skipper is Valued-Secure Web Gateway and has specific any function below.
   - Now Skipper dont have URL-Filtering DB, But Skipper can filter WebRequest by ACL that Client set,
      Filter Target:
       URL/Host/HttpHeader/Query/SrcIp/Port/DstIp/Port/DstCountry/Protocol/…
-  - Skipper can filter WebRequest by Snort Rules and Reputation.
+      [**New R02] As new filter condition, OwnIPPort and SourceCountry
+  - Skipper can filter WebRequest by [Snort] Rules and Reputation.
      as forward-proxy: upstream-direction only(home_net->external_net),  as reverse-proxy: upstream-direction only(external_net->home_net)
   * When blocking, this system doesnot display blocking-page, only disconnecting.
 4) Multiple Authentiations(LDAP/NTLM/Private) 
 5) Detailed Logging for SIEM.
-6) Rich Setting GUI.
-7) Multi-environment as Windows, Linux.
-8) [New R02] Preverse Proxy function!
-9) [New R02] As new filter condition, OwnIPPort and SourceCountry
+6) Cache for static contents.
+7) Rich Setting GUI.
+8) Multi-environment as Windows, Linux.
+9) [**New R02] Preverse Proxy function!
 
 Now Skipper has any issue below.
 - Skipper doesnt have URL-FilteringDB including Black/WhiteList and distribute such DB.
