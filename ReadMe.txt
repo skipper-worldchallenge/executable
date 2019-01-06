@@ -8,6 +8,9 @@ Finally, this system has below funtions (1)-(9). but it's not enough as next gen
 So that I need collaborators to develop together and cordinators to deploy around the world as New value gateway.
 Please contact me!
 
+I'm using "Visual Studio Express 2013 for Windows Desktop" to deverlop.
+If you can collaborate, you need same environments.
+
 		Skipper 
 ---------------------------------------------------
 + please ask me(skipper.worldchallege@gmail.com) about zip password.
