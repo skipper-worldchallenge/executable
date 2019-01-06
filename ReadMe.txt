@@ -3,7 +3,8 @@
 This system has three challenges still. 
 First, we don't have URL category database. this system can't be SWG without URL category database.
 Next, we need testing and field verification. but we don't have enough resources.
-Finally, this system has below funtions (1)-(9). but it's not enough as next generation gateway system. so I'm finding new function that bring new value.
+Finally, this system has below funtions (1)-(9). but it's not enough as next generation gateway system. 
+so I'm finding new function that bring new value.
 
 So that I need collaborators to develop together and cordinators to deploy around the world as New value gateway.
 Please contact me!
