@@ -1,12 +1,12 @@
 						Takayuki.Uchida Japan
 
-Now I'm developping function of ReverseProxy in skipper(SWG), and I found serious Bugs at HTTP2 communication and Part of rules of snort are not working with pcre using ¥x00 format. I found bugs other else....
+This system has three challenges. 
+First, we don't have URL category database. this system can't be SWG without URL category database.
+Next, we need testing and field verification. but we don't have enough resources.
+Finally, this system has below funtions (1)-(9). but it's not enough as next generation gateway system. so I'm finding new function that bring new value.
 
-!! Now I am testing system, but I release R02-beta at 13th Dec.
-*1) [completed, 26th Dec] there's not block-rule-info in accesslog when blocking.
-*2) [completed ,18th Dec] that's not enough acls for reverse-proxy that are SourceCountry and OwnIpPort.
-*3) [fixed some bugs, 26th Dec] other bugs
-       -> we had a lot of bugs, for example, Down when url-filtering at http2, [,] URL-char decoded but now not decoded.
+So that I need collaborators to develop together and cordinators to deploy around the world as New value gateway.
+Please contact me!
 
 		Skipper 
 ---------------------------------------------------
