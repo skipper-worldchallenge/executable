@@ -78,6 +78,7 @@ Skipper is Valued-Secure Web Gateway and has specific any function below.
 Now Skipper has any issue below.
 - Skipper doesnt have URL-FilteringDB including Black/WhiteList and distribute such DB.
   ***** please provide these or make these together with me!   ask me! *******
+- Skipper should have setting datas for reverse-proxy at connecting to CDN. for example http-header for client ip.
 
 Possibility
 - To enbbed User Library is possible. so that we can develop the Gateway Solution.
